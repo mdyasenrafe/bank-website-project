@@ -1,0 +1,8 @@
+@media screen and (max-width: 568px) {
+  /* body {
+    background-color: red;
+  } */
+  .grid-colums {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}

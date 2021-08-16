@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pioner-Bank</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-16">
+        Welcome to my <span class="text-purple-500">Pioner-Bank </span> website
+      </h1>
+    </header>
+    <main>
+      <section class="bg-green-100 w-3/4 mx-auto mt-8 p-3">
+        <h3 class="text-2xl mb-4">Please Login</h3>
+        <div id="form-container">
+          <input
+          id="user-email"
+            class="border rounded border-gray-400 block w-3/4 mb-4 py-1 px-2"
+            type="text"
+            name="email"
+            placeholder="Please Enter your Email"
+          />
+          <input
+          id="user-password"
+            class="border rounded border-gray-400 block w-3/4 mb-4 py-1 px-2"
+            type="password"
+            name="email"
+            placeholder="Please Enter your Email"
+          />
+          <button id="handle-submit-btn" class="bg-yellow-600 px-4 rounded py-2 text-white font-medium">Submit</button>
+            <p id="error-message" class="text-red-600"></p>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
